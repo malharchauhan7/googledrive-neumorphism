@@ -62,19 +62,21 @@ const Header = () => {
           alt=""
           className="h-9 opacity-85 rounded-full cursor-pointer select-none"
         />
-        <motion.img
-          src="https://i.ibb.co/YPmdqr0/Group-59.png"
-          alt=""
-          className="h-11 opacity-85 shadow-neumo rounded-full cursor-pointer select-none"
-          whileHover={{
-            scale: 1.03,
-          }}
-          whileTap={{
-            scale: 0.96,
-            boxShadow:
-              "inset 4px 4px 6px rgba(0,0,0,0.2), inset -4px -4px 6px rgba(255,255,255,0.7)",
-          }}
-        />
+        <a href="https://malharportfolio.vercel.app/" target="_blank">
+          <motion.img
+            src="https://i.ibb.co/YPmdqr0/Group-59.png"
+            alt=""
+            className="h-11 opacity-85 shadow-neumo rounded-full cursor-pointer select-none"
+            whileHover={{
+              scale: 1.03,
+            }}
+            whileTap={{
+              scale: 0.96,
+              boxShadow:
+                "inset 4px 4px 6px rgba(0,0,0,0.2), inset -4px -4px 6px rgba(255,255,255,0.7)",
+            }}
+          />
+        </a>
       </motion.div>
     </motion.div>
   );
